@@ -1,0 +1,25 @@
+{
+    "create":{
+        "table": "users",
+        "data": {
+            "name":"Listya Atmaja",
+            "email":"lis@gmail.com"
+        }
+    },
+    "read": {
+        "table": "users",
+        "conditions": {
+            "name": "Rheino"
+        }
+    },
+    "update": {
+        "table": "users",
+        "data": {
+            "email": "rheinoperean@gmail.com"
+        },
+        "conditions": {
+            "name": "Rheino"
+        }
+    }
+    
+}
